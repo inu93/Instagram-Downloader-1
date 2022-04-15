@@ -5,7 +5,7 @@ const bot = new Telegraf(process.env.token);
 bot.start((ctx) => ctx.reply("Hai "+ctx.from.username+" Aku adalah bot untuk mendownload video/photo dari instagram. Silahkan Kirim link untuk memulai download", {
       ...Markup.inlineKeyboard([
         Markup.button.url('Developer', 
-           't.me/scerviez')
+           't.me/ebnudoang')
       ])
      }
     ));
